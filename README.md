@@ -16,9 +16,9 @@ Running the project:
 1. Run the bash script: ./dse511_project_bash_script.sh
 
 Output:
-3 pdf files with plots
-Summary statistics from R scripts
-List of Top 5 wildfire years in the US based on suppression costs 
+1. 3 pdf files with each with several plots: histograms, time series and scatter plots
+2. Summary statistics from R scripts
+3. List of Top 5 wildfire years in the US based on suppression costs 
 
-The script will run 3 R scripts. The first R script will generate analysis for California and Washington state fires. The second script will download data from NFIC and generate some analysis for aggregated US wildfires. It will also write the downloaded data to .txt files. The bash script will then read one of these files to list the top 5 wildfire years in the US based on total costs to suppress the fires using sed and sort. The bash scripts will also be used to clean up two downloaded tables from NFIC. These cleaned up tables will then be used by the third R script to compute the fraction of human caused wildfires over the US and plot the timeseries.  
+The script will run 3 R scripts. The first R script will download data from Wikipedia and generate analysis for California and Washington state fires. The second script will download data from NFIC and generate analysis for aggregated US wildfires. It will also write the downloaded data to .txt files. The bash script will then read one of these files to list the top 5 wildfire years in the US based on total costs to suppress the fires using tail, head, sed and sort. The bash scripts will also be used to clean up two downloaded tables from NFIC using tail and head. These cleaned up tables will then be used by the third R script to compute the fraction of human caused wildfires over the US and plot the timeseries.  
 
