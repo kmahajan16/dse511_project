@@ -22,7 +22,7 @@ Output:
 
 The script will run 3 R scripts. The first R script will download data from Wikipedia and generate analysis for California and Washington state fires. The second script will download data from NFIC and generate analysis for aggregated US wildfires. It will also write the downloaded data to .txt files. The bash script will then read one of these files to list the top 5 wildfire years in the US based on total costs to suppress the fires using tail, head, sed and sort. The bash scripts will also be used to clean up two downloaded tables from NFIC using tail and head. These cleaned up tables will then be used by the third R script to compute the fraction of human caused wildfires over the US and plot the timeseries.  
 
-The 3 pdf files that will be generated are already included in the repo here for reference. Downloaded data files and cleaned up data files are also included for reference. 
+The 3 pdf files that will be generated are already included in the repo here for reference. The generated output from running the project is also included for reference. Downloaded data files written from R scripts and cleaned up data files are also included for reference. 
 
 Running the bash script would download the data from the websites and generate these plots and results.
 
